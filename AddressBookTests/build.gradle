@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'AddressBookTests'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.seleniumhq.selenium:selenium-java:3.4.0'
+    compile 'com.slickqa:testng:7.0.0-7'
+}
